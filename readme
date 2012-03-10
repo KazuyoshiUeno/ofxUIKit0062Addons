@@ -1,0 +1,29 @@
+ofxUIKit0062でアドオンとして使用するファイル群
+
+------------------------------------------
+・ofxOpenCV
+３つの.aファイルも必要
+
+------------------------------------------
+・ofxUIKitVideoGrabber
+ フレームワーク追加必要
+・AVFoundationFramework
+・CoreMedia
+・CoreVideo
+
+-------------------------------------------
+・Box2D ver2.2.0
+　プロジェクトに追加する方法
+　・ofxUIKitのプロジェクトを開く
+　・プロジェクトに既存のファイルを追加で、
+　　Box2D_v2.2.0/box2d/box2dのディレクトリを追加
+　・Header Search Pathに${PROJECT_DIR}を追加
+　・ofxUIKitのアプリケーションデリゲート.mファイルの
+　　source type をObjective-C++に設定
+　　Box2dを使いたいクラスファイルも、Objective-C++ファイルとする。
+　　
+------------------------------------------
+・ofxContourAnalysis
+OpenCV用　解析結果単純化アドオン
+
+
